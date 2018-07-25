@@ -1,0 +1,30 @@
+{
+  "name": "@coracain/{{name}}-block",
+  "version": "{{version}}",
+  "description": "{{description}}",
+  "author": "{{author}}",
+  "files": ["src/","lib/"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/james-cain/cain-mobile-materials"
+  },
+  "license": "MIT",
+  "keywords": ["ice", "vue", "mobile", "block"],
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.com"
+  },
+  "dependencies": {
+    "vue": "^2.5.16"
+  },
+  "blockConfig": {
+    "name": "{{name}}",
+    "title": "{{title}}",
+    "categories": [
+      {{#each categories}}
+        "{{@key}}"{{#if @last}} {{else}},{{/if}}
+      {{/each}}
+    ],
+    "screenshot": ""
+  }
+}

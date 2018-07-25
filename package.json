@@ -1,0 +1,22 @@
+{
+  "name": "cain-vue-mobile-block-template",
+  "version": "1.0.0",
+  "description": "cain ice vue mobile block template",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ice", "ice-template"],
+  "author": {
+    "name": "james-cain",
+    "email": "m15960192140@163.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/james-cain/cain-mobile-materials"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.com"
+  }
+}
