@@ -1,6 +1,6 @@
 {
   "name": "cain-vue-mobile-block-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "cain ice vue mobile block template",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

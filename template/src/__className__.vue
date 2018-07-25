@@ -5,10 +5,8 @@
 </template>
 
 <script>
-import BasicContainer from '@vue-materials/basic-container'
 
 export default {
-  components: { BasicContainer },
   name: '{{className}}',
 
   data() {
@@ -25,7 +23,7 @@ export default {
 <style scoped>
   .content-container {
     background: #fff;
-    overflow: hidden;
+    overflow: auto;
   }
 
   .{{name}} {
